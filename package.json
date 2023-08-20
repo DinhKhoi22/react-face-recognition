@@ -4,16 +4,20 @@
   "homepage": "http://supachaic.github.io/react-face-recognition",
   "private": true,
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "css-select": "^5.1.0",
     "face-api.js": "^0.17.0",
     "gh-pages": "^2.0.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.2",
-    "react-webcam": "^1.0.4"
+    "nth-check": "^2.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "react-webcam": "^1.0.4",
+    "svgo": "^3.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -28,5 +32,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3"
+  }
 }
